@@ -3259,4 +3259,21 @@ input, select, textarea {
 }
 
 
+		@media screen and (max-width: 980px) {
+    .stats {
+        flex-direction: row !important;
+    }
+}
+
+		
+
 	}
+
+#one {
+    width: 100%;
+    max-width: 100%;
+}
+.stats {
+    display: flex !important;
+    justify-content: center !important;
+}
