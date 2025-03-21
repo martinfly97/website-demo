@@ -3230,6 +3230,17 @@ input, select, textarea {
     text-align: center;
 }
 
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap; /* Ensures items wrap if space is limited */
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+		
 .stat {
     flex: 1;
     min-width: 150px;
