@@ -3217,6 +3217,10 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+.stats {
+    display: flex !important;
+    justify-content: center !important;
+}
 
 		.stats {
     display: flex;
